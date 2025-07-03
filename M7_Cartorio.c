@@ -21,6 +21,7 @@ for(x=1;x=1;) //Repetição para voltar do início do menu
 	printf("\t1 - Registrar nomes \n");
 	printf("\t2 - Consultar nomes \n");
 	printf("\t3 - Deletar nomes \n");
+	printf("\t4 - Sair do sistema \n\n");
 	printf("Opção: "); 
 //Fim do menu
 	
@@ -43,6 +44,11 @@ for(x=1;x=1;) //Repetição para voltar do início do menu
 		case 3:
 		deletar();
 		system("pause");
+		break;
+		
+		case 4:
+		printf("Obrigado por utilizar o sistema!\n");
+		return 0;
 		break;
 		
 		default:
